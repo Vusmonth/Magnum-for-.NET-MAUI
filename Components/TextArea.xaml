@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Avalon.Maui.Magnum.Components.TextArea"
+             x:Name="this">
+    <VerticalStackLayout BindingContext="{x:Reference this}">
+
+        <Label x:Name="LabelText"
+               Text="{Binding Label, Mode=TwoWay}"
+               FontAttributes="Bold"
+               FontFamily=""
+               TextColor="{StaticResource Primary}" />
+
+        <Border BackgroundColor="White">
+            <Editor x:Name="Entry"
+                    Text="{Binding Text, Mode=TwoWay}"
+                    HeightRequest="100"
+                    Placeholder="Digite algo..." />
+        </Border>
+
+    </VerticalStackLayout>
+</ContentView>

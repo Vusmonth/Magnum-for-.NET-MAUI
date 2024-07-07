@@ -9,19 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb9527d4-0de3-480c-aab5-0c6f678128e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Avalon.MAUI/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Avalon.MAUI/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Avalon.MAUI/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Avalon.MAUI/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avalon.MAUI.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Avalon.Maui.Magnum.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/Android/PlatformClass1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/MacCatalyst/PlatformClass1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/Tizen/PlatformClass1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/Windows/PlatformClass1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Platforms/iOS/PlatformClass1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Avalon.MAUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Avalon.MAUI/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +24,9 @@
       <facet id="Avalon.Maui.Magnum/invalid/Android Facet - Avalon.Maui.Magnum" />
     </ignored-facets>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2itkhSM7Dp9jcFzgNTB0qwhBSPF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,28 +35,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Avalon.Maui.Magnum": "iPhone 15",
-    "DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider": "Simulator",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "iOS.Avalon.Maui.Magnum.executor": "Debug",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: Avalon.Maui.Magnum&quot;: &quot;iPhone 15&quot;,
+    &quot;DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider&quot;: &quot;Simulator&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;iOS.Avalon.Maui.Magnum.executor&quot;: &quot;Debug&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/opah/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/opah/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/opah/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/opah/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/opah/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/opah/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="iOS.Avalon.Maui.Magnum">
     <configuration name="Avalon.Maui.Magnum" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/Avalon.Maui.Magnum.csproj" />
@@ -95,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720317379545</updated>
-      <workItem from="1720317380576" duration="5033000" />
+      <workItem from="1720317380576" duration="6193000" />
+      <workItem from="1720378645111" duration="81000" />
     </task>
     <servers />
   </component>

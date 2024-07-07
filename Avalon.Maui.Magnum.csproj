@@ -29,7 +29,16 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Components\" />
+      <MauiXaml Update="Components\TextArea.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Components\TextArea.xaml.cs">
+        <DependentUpon>TextArea.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
     </ItemGroup>
 
 </Project>
