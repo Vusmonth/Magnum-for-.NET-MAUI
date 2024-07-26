@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Maui.BindableProperty.Generator.Core;
 
 namespace Avalon.Maui.Magnum.Components;
 
@@ -10,6 +11,9 @@ public partial class TextInput : ContentView
 {
     public static readonly BindableProperty TextProperty = BindableProperty.Create("Text", typeof(string), typeof(TextInput), "Text", BindingMode.TwoWay);
     public static readonly BindableProperty LabelProperty = BindableProperty.Create("Label", typeof(string), typeof(TextInput), "Label", BindingMode.TwoWay);
+    
+    [AutoBindable]
+    private readonly string _placeholder = String.Empty;
     
     public string Text
     {

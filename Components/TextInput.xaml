@@ -15,7 +15,7 @@
         <Border BackgroundColor="White">
             <Entry  x:Name="Entry"
                     Text="{Binding Text, Mode=TwoWay}"
-                    Placeholder="Digite algo..." />
+                    Placeholder="{Binding Placeholder}" />
         </Border>
         
     </VerticalStackLayout>
