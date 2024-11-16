@@ -8,8 +8,8 @@ namespace Avalon.Maui.Magnum.Components;
 
 public partial class TextArea : ContentView
 {
-    public static readonly BindableProperty TextProperty = BindableProperty.Create("Text", typeof(string), typeof(TextInput), "Text", BindingMode.TwoWay);
     public static readonly BindableProperty LabelProperty = BindableProperty.Create("Label", typeof(string), typeof(TextInput), "Label", BindingMode.TwoWay);
+    public static readonly BindableProperty TextProperty = BindableProperty.Create("Text", typeof(string), typeof(TextInput), "Text", BindingMode.TwoWay);
     
     public string Text
     {
